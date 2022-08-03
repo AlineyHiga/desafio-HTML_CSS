@@ -1,8 +1,7 @@
 /*tablet*/
 @media(max-width:1200px){
     #main-contato{
-        width:75.1vw;
-        
+        width:75.1vw;    
     }
     #user-contato{
         width: 40vw;
@@ -41,3 +40,34 @@
      
 }
 /*celular*/
+@media(max-width:600px){
+    #main-contato{
+        width: 90vw;
+        justify-content: center;
+        margin-top:2vh;
+        margin-bottom: 10vh;
+    }
+    #user-contato{
+        width: 90vw;
+        
+    }
+    #user-contato form{
+        margin-bottom: 15vh;
+    }
+    #user-contato form input{
+        width: 70vw;
+    }
+    #user-contato form textarea{
+        width:70vw;
+    }
+
+    #site-contato{
+        opacity: 0;
+        height: 0;
+        width: 0;
+    }
+    .footer-contato{
+        opacity: 1;
+        height: 120px;
+    }
+}

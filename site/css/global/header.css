@@ -34,3 +34,19 @@ header nav a{
 }
 
 /*celular*/
+@media(max-width:600px){
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav{
+        width: 155px;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    header nav a{
+        margin: 2vh 0;
+    }
+}

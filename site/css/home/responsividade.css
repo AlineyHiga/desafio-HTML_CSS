@@ -27,5 +27,31 @@
     #masculino div{
         margin: 1.5vw 0;
     }
-
+}
+/*celular*/
+@media(max-width:600px){
+    #main-home{
+        width: 90vw;
+    }
+    #moda h1{
+        opacity: 1;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    #moda article{
+        height: auto;
+        margin-top: 7vh;
+    }
+    #moda article p{
+        height: auto;
+        padding: 1vh;
+    }
+    #masculino {
+        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
