@@ -1,0 +1,31 @@
+/*Tablet*/
+@media(max-width:1200px){
+    #main-home{
+        width:75.1vw;
+    }
+    #banner{
+        opacity: 0;
+        height: 0;
+    }
+    #moda h1{
+        opacity: 0;
+        height: 0;
+    }
+    #moda article{
+        height: auto;
+        margin-top: 5vh;
+    } 
+    #moda article p{
+        height: auto;
+        padding: 1vh;
+    }
+    #masculino{
+        height: auto;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    #masculino div{
+        margin: 1.5vw 0;
+    }
+
+}

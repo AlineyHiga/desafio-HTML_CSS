@@ -1,0 +1,43 @@
+/*tablet*/
+@media(max-width:1200px){
+    #main-contato{
+        width:75.1vw;
+        
+    }
+    #user-contato{
+        width: 40vw;
+    }
+    #user-contato form h2{
+        font-size: 36px;
+        line-height: 42px;
+    }
+    #user-contato form label{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    #user-contato form input{
+        width:fit-content;
+    }
+    #user-contato form textarea{
+        width: fit-content;
+    }
+
+    #user-contato form button{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #site-contato{
+        width:33vw;
+    }
+    #site-contato label{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    #site-contato span{
+        font-size: 14px;
+        line-height: 16px;
+    }
+     
+}
+/*celular*/
