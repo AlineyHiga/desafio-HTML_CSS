@@ -1,0 +1,79 @@
+@import url(/site/css/global/cores.css);
+main{
+    width: 1200px;
+    margin: auto;
+    margin-top: 51px;
+    margin: buttom 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#banner{
+    height: 450px;
+}
+
+#moda {
+    margin-top: 24px;
+}
+#moda h1{
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--vinho);    
+}
+#moda article{
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#moda p{
+    height: 78px;
+    color:var(--cinza);
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+}
+#masculino{
+    width: 1200px;
+    height: 410px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 83px;
+    margin-bottom: 72px;
+    
+}
+
+#masculino div{
+    width: 250px;
+    height: 410px;
+    border: 1px solid var(--cinza);  
+}
+#masculino div article{
+    height: 187px;
+    width: 197px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:36px;
+    margin-left:28px ;
+    margin-bottom: 37px;
+    font-size: 14px;
+    line-height: 16px;
+
+}  
+#masculino div article h2{
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--vinho);
+} 
+#masculino div article a{
+    width: 128px;
+    padding: 13px 0;
+    border: 2px solid var(--vinho);
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--vinho);
+} 

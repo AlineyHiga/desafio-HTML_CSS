@@ -20,9 +20,6 @@ footer div{
 footer div span{
     color: var(--branco);
     text-align: center;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
 }
