@@ -1,4 +1,28 @@
-@import url(./root.css);
+/*cores*/
+@import url(./cores.css);
+
+/*RodaPé*/
 footer{
+    height: 120px;
+    background-color: var(--vinho);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+footer div{
+    width: 283px;
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
+}
+footer div span{
+    color: var(--branco);
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
 }
