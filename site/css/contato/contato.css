@@ -1,0 +1,86 @@
+/*cores*/
+@import url(/site/css/global/cores.css);
+
+#contato{
+    width: 1200px;
+    margin: auto;
+    margin-top:51px;
+    margin-bottom: 191px;
+    display: flex;
+    justify-content: space-between;
+}
+#user-contato{
+    width: 780px;
+    height: 700px;
+    border: 1px solid var(--vinho);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+#user-contato form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:46px ;
+    margin-bottom: 51px;
+}
+#user-contato form h2{
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--vinho);    
+}
+#user-contato form label{
+    color: var(--cinza);
+    font-size: 24px;
+    line-height: 28px;
+}
+#user-contato form input{
+    width: 400px;
+    height: 42px;
+    border: 1px solid var(--vinho);
+    border-radius: 4px
+}
+#user-contato form textarea{
+    width: 400px;
+    height: 125px;
+    border: 1px solid var(--vinho);
+    border-radius: 4px;   
+}
+#user-contato form button{
+    width: 128px;
+    height: 42px;
+    font-size: 24px;
+    color: var(--branco);
+    background-color: var(--vinho);
+    cursor: pointer;
+    border: 2px solid var(--vinho);
+    border-radius: 4px;
+}
+
+#site-contato{
+    width: 400px;
+    height: 700px;
+    background-color: var(--vinho);
+    border: 1px solid var(--vinho);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#site-contato div{
+    color: var(--branco);
+    font-weight: 200;
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+}
+#site-contato div label{
+    font-weight: 600;
+}
+
+footer{
+    opacity: 0;
+    height: 0;
+}
