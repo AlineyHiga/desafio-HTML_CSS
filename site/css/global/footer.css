@@ -3,6 +3,7 @@
 
 /*RodaPé*/
 footer{
+    width: 100vw;
     height: 120px;
     background-color: var(--vinho);
     display: flex;
