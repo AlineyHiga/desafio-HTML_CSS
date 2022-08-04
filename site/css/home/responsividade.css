@@ -1,7 +1,12 @@
 /*Tablet*/
 @media(max-width:1200px){
+    header{
+        width:75.1vw;
+        margin-top: 60px;
+    }
     #main-home{
         width:75.1vw;
+        margin-top: 20px;
     }
     #banner{
         opacity: 0;
@@ -10,6 +15,9 @@
     #moda h1{
         opacity: 0;
         height: 0;
+    }
+    #moda{
+        margin-top: 0;
     }
     #moda article{
         height: auto;
@@ -20,6 +28,7 @@
         padding: 1vh;
     }
     #masculino{
+        margin-top: 5vh;
         height: auto;
         flex-wrap: wrap;
         align-content: space-between;
@@ -30,8 +39,27 @@
 }
 /*celular*/
 @media(max-width:600px){
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav{
+        width: 155px;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    header nav a{
+        margin: 2vh 0;
+    }
     #main-home{
         width: 90vw;
+    }
+    #banner{
+        opacity: 0;
+        height: 0;
+        
     }
     #moda h1{
         opacity: 1;
@@ -54,4 +82,16 @@
         align-items: center;
         justify-content: center;
     }
+}
+@media(max-width:300px){
+   #masculino div{
+    width: 95vw;
+   } 
+   #masculino div img{
+    width: 100%;
+    height: auto;
+   } 
+   #home-footer div span{
+    font-size: 0.7rem;
+   }
 }

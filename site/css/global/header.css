@@ -1,7 +1,7 @@
 /*cores*/
 @import url(./cores.css);
 
-/*desktop*/
+
 header{
     width: 1200px;
     display: flex;
@@ -11,14 +11,13 @@ header{
 
 }
 header img{
-    width: 155px;
-    height: 70px;
+    height: 100%;
 }
 header nav{
-    width: 123px;
+    width: 100px;
     display: flex;
     justify-content: space-between;
-    margin-top: 19px;
+    margin-top: 5vh;
 }
 header nav a{
     font-size: 14px;
@@ -26,27 +25,5 @@ header nav a{
     line-height: 16px;
     color: var(--preto);
 }
-/*tablet*/
-@media(max-width:1200px){
-    header{
-        width:75.1vw;
-    }
-}
 
-/*celular*/
-@media(max-width:600px){
-    header {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    header nav{
-        width: 155px;
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
-    }
-    header nav a{
-        margin: 2vh 0;
-    }
-}
+
