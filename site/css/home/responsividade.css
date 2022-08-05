@@ -11,9 +11,6 @@
         width:75.1vw;
         margin-top: 20px;
     }
-    #banner{
-        
-    }
     #moda h1{
         display: none;
     }
@@ -118,7 +115,8 @@
         justify-content: center;
     }
 }
-@media(max-width:300px){
+
+@media(max-width:250px){
    #masculino div{
     width: 95vw;
    } 
