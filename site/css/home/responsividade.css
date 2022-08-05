@@ -1,3 +1,6 @@
+#masculino{
+    flex-wrap: wrap;
+}
 /*Tablet*/
 @media(max-width:1200px){
     header{
@@ -9,12 +12,10 @@
         margin-top: 20px;
     }
     #banner{
-        opacity: 0;
-        height: 0;
+        
     }
     #moda h1{
-        opacity: 0;
-        height: 0;
+        display: none;
     }
     #moda{
         margin-top: 0;
@@ -30,7 +31,41 @@
     #masculino{
         margin-top: 5vh;
         height: auto;
-        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    #masculino div{
+        margin: 1.5vw 0;
+    }
+}
+@media(max-width:800px){
+    header{
+        width:75.1vw;
+        margin-top: 60px;
+    }
+    #main-home{
+        width:75.1vw;
+        margin-top: 20px;
+    }
+    #banner{
+        display: none;
+    }
+    #moda h1{
+        display: none;
+    }
+    #moda{
+        margin-top: 0;
+    }
+    #moda article{
+        height: auto;
+        margin-top: 5vh;
+    } 
+    #moda article p{
+        height: auto;
+        padding: 1vh;
+    }
+    #masculino{
+        margin-top: 5vh;
+        height: auto;
         align-content: space-between;
     }
     #masculino div{
@@ -38,7 +73,7 @@
     }
 }
 /*celular*/
-@media(max-width:600px){
+@media(max-width:450px){
     header {
         flex-direction: column;
         justify-content: center;

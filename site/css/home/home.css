@@ -1,20 +1,23 @@
 @import url(/site/css/global/cores.css);
 #main-home{
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
     margin-top: 51px;
-    margin: buttom 71px;
+    margin-bottom: 71px; 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 #banner{
-    height: 450px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 #moda {
     margin-top: 24px;
 }
+
 #moda h1{
     font-size: 36px;
     line-height: 42px;
@@ -36,6 +39,7 @@
 }
 #masculino{
     width: 100%;
+    max-width: 1200px;
     height: 410px;
     display: flex;
     justify-content: space-between;
